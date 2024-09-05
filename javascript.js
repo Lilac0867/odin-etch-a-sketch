@@ -11,3 +11,12 @@ for(let i = 1; i <= 16; i++) {
     }
     container.appendChild(row);
 }
+
+const square = document.querySelectorAll('.square');
+
+for(let i = 0; i < square.length; i++) {
+    square[i].addEventListener('mouseover', (event) => {
+        const coloredSquare = event.target;
+        coloredSquare.classList.add('colored');
+    });
+}
