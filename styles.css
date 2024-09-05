@@ -11,6 +11,10 @@ body {
   align-items: center;
 }
 
+#container {
+  border: 1px solid black;
+}
+
 .row {
   display: flex;
   height: 25px;
@@ -19,6 +23,5 @@ body {
 .square {
   width: 25px;
   height: 25px;
-  background-color: blue;
   border: 1px solid black;
 }
