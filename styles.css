@@ -14,19 +14,24 @@ body {
 }
 
 #container {
+  display: flex;
+  flex-direction: column;
   border: 1px solid black;
+  width: 500px;
+  height: 500px;
 }
 
 .row {
   display: flex;
-  height: 25px;
+  flex: auto;
 }
 
 .square {
-  width: 25px;
-  height: 25px;
-  border: 1px solid black;
+  display: flex;
+  flex: auto;
   background-color: #f8f8f8;
+  width: auto;
+  height: auto;
 }
 
 .colored {
